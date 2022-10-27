@@ -143,7 +143,7 @@ include 'header.php'; ?>
                   </thead>
                   <tbody>
                     <?php 
-                    include '../koneksi.php';
+                    // include '../koneksi.php';
                     $no=1;
                     $total_pemasukan=0;
                     $total_pengeluaran=0;
