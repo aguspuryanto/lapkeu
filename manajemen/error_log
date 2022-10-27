@@ -1,0 +1,10 @@
+[13-Oct-2022 07:35:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/stylesheet.cls.php on line 1054
+[13-Oct-2022 07:35:42 UTC] PHP Fatal error:  Uncaught DOMPDF_Exception: No block-level parent found.  Not good. in /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/inline_positioner.cls.php:38
+Stack trace:
+#0 /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/frame_decorator.cls.php(546): Inline_Positioner->position()
+#1 /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/text_frame_reflower.cls.php(331): Frame_Decorator->position()
+#2 /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/frame_decorator.cls.php(556): Text_Frame_Reflower->reflow(NULL)
+#3 /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/page_frame_reflower.cls.php(138): Frame_Decorator->reflow()
+#4 /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/frame_decorator.cls.php(556): Page_Frame_Reflower->reflow(NULL)
+#5 /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/dompdf.cls.php(817): Frame_Decorator->reflow()
+#6 /home/sdnj8236/p in /home/sdnj8236/public_html/tes.sdnslorok02doko.com/library/dompdf/include/inline_positioner.cls.php on line 38
